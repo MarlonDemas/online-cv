@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    header {
+        background: url(../img/book-computer-design-326424.jpg);
+        background-size: cover;
+        height: 100vh;
+        background-attachment: fixed;
+
+        nav {
+            background: inherit;
+            padding: 20px;
+        }
+
+        nav.scroll {
+            background: black;
+        }
+    }
+}
