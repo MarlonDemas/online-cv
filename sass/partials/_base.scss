@@ -3,7 +3,7 @@ body {
     header {
         background: url(../img/book-computer-design-326424-min.jpg);
         background-size: cover;
-        height: 100vh;
+        height: 120vh;
         background-attachment: fixed;
 
         nav {
@@ -13,6 +13,20 @@ body {
 
         nav.scroll {
             background: black;
+        }
+
+        div {
+            background: rgba(0,0,0,0.5);
+            padding-top: 30px;
+            position: relative;
+            top: 82vh;
+            font-size: 3em;
+            text-align: center;
+        }
+        #subText {
+            font-size: 2.5em;
+            padding-bottom: 20px;
+            padding-top: 10px;
         }
     }
 }
