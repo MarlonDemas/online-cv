@@ -1,32 +1,19 @@
 body {
-    margin: 0;
     header {
-        background: url(../img/book-computer-design-326424-min.jpg);
-        background-size: cover;
-        height: 120vh;
-        background-attachment: fixed;
-
-        nav {
-            background: inherit;
-            padding: 20px;
+        .hero {
+            background-image: url('../img/book-computer-design-326424-min.jpg');
+            background-attachment: fixed;
+            background-size: cover;
         }
-
-        nav.scroll {
-            background: black;
-        }
-
-        div {
-            background: rgba(0,0,0,0.5);
-            padding-top: 30px;
-            position: relative;
-            top: 82vh;
-            font-size: 3em;
-            text-align: center;
-        }
-        #subText {
-            font-size: 2.5em;
-            padding-bottom: 20px;
-            padding-top: 10px;
+        .hero-body {
+            height: 195vh;
+            .myTitle {
+                background: rgba(0, 0, 0, 0.5);
+                margin-left: -55px;
+                margin-right: -55px;
+                padding: 1.75rem;
+                font-family: 'Fredoka One', cursive;
+            }
         }
     }
 }

@@ -1,25 +1,18 @@
-body {
-  margin: 0; }
-  body header {
-    background: url(../img/book-computer-design-326424-min.jpg);
-    background-size: cover;
-    height: 120vh;
-    background-attachment: fixed; }
-    body header nav {
-      background: inherit;
-      padding: 20px; }
-    body header nav.scroll {
-      background: black; }
-    body header div {
-      background: rgba(0, 0, 0, 0.5);
-      padding-top: 30px;
-      position: relative;
-      top: 82vh;
-      font-size: 3em;
-      text-align: center; }
-    body header #subText {
-      font-size: 2.5em;
-      padding-bottom: 20px;
-      padding-top: 10px; }
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One|Playfair+Display+SC");
+body header .hero {
+  background-image: url("../img/book-computer-design-326424-min.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+body header .hero-body {
+  height: 195vh;
+}
+body header .hero-body .myTitle {
+  background: rgba(0, 0, 0, 0.5);
+  margin-left: -55px;
+  margin-right: -55px;
+  padding: 1.75rem;
+  font-family: "Playfair Display SC", serif;
+}
 
 /*# sourceMappingURL=main.css.map */
