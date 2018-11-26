@@ -1,5 +1,7 @@
-# Curriculum Vitae of Marlon Demas
-This is an online website version of my curriculum vitae.
+# Portfolio
+
+## Description
+Online Dev Portfolio of Marlon Demas
 
 ## Live Link
 https://marlondemas.github.io/myportfolio/index.html
