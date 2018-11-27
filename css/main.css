@@ -1,23 +1,18 @@
 body header .hero {
   background-image: url("../img/book-computer-design-326424-min.jpg");
   background-attachment: fixed;
-  background-size: cover;
-}
+  background-size: cover; }
 body header .hero-body {
-  height: 195vh;
-}
-body header .hero-body .myTitle {
-  background: rgba(0, 0, 0, 0.5);
-  margin-left: -55px;
-  margin-right: -55px;
-  padding: 1.75rem;
-}
+  height: 195vh; }
+  body header .hero-body .myTitle {
+    background: rgba(0, 0, 0, 0.5);
+    margin-left: -10%;
+    margin-right: -10%;
+    padding: 1.75rem; }
 body header .nav-colored {
-  transition: 0.5s;
-  background-color: white !important;
-}
+  transition: .5s;
+  background-color: white !important; }
 body header .navbar-item img {
-  max-height: 5rem;
-}
+  max-height: 5rem; }
 
 /*# sourceMappingURL=main.css.map */
