@@ -12,7 +12,14 @@ body header .hero-body .myTitle {
   margin-left: -55px;
   margin-right: -55px;
   padding: 1.75rem;
-  font-family: "Playfair Display SC", serif;
+  font-family: "Fredoka One", cursive;
+}
+body header .nav-colored {
+  transition: 0.5s;
+  background-color: white !important;
+}
+body header .navbar-item img {
+  max-height: 5rem;
 }
 
 /*# sourceMappingURL=main.css.map */

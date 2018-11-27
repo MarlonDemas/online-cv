@@ -15,5 +15,12 @@ body {
                 font-family: 'Fredoka One', cursive;
             }
         }
+        .nav-colored {
+            transition: .5s;
+            background-color: white !important;
+        }
+        .navbar-item img {
+            max-height: 5rem;
+        }
     }
 }
