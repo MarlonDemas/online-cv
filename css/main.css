@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Fredoka+One|Playfair+Display+SC");
 body header .hero {
   background-image: url("../img/book-computer-design-326424-min.jpg");
   background-attachment: fixed;
@@ -12,7 +11,6 @@ body header .hero-body .myTitle {
   margin-left: -55px;
   margin-right: -55px;
   padding: 1.75rem;
-  font-family: "Fredoka One", cursive;
 }
 body header .nav-colored {
   transition: 0.5s;

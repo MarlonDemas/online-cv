@@ -12,7 +12,7 @@ body {
                 margin-left: -55px;
                 margin-right: -55px;
                 padding: 1.75rem;
-                font-family: 'Fredoka One', cursive;
+                // font-family: 'Fredoka One', cursive;
             }
         }
         .nav-colored {
@@ -20,7 +20,7 @@ body {
             background-color: white !important;
         }
         .navbar-item img {
-            max-height: 5rem;
+            max-height: $navbar-item-img-max-height;
         }
     }
 }
