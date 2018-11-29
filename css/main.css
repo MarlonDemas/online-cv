@@ -1,18 +1,59 @@
 body header .hero {
   background-image: url("../img/book-computer-design-326424-min.jpg");
   background-attachment: fixed;
-  background-size: cover; }
-body header .hero-body {
-  height: 195vh; }
-  body header .hero-body .myTitle {
-    background: rgba(0, 0, 0, 0.5);
-    margin-left: -10%;
-    margin-right: -10%;
-    padding: 1.75rem; }
+  background-size: cover;
+}
+body header .hero-body .myTitle {
+  background: rgba(0, 0, 0, 0.5);
+  margin-left: -10%;
+  margin-right: -10%;
+  padding: 1.75rem;
+}
 body header .nav-colored {
-  transition: .5s;
-  background-color: white !important; }
+  transition: 0.5s;
+  background-color: white !important;
+}
 body header .navbar-item img {
-  max-height: 5rem; }
+  max-height: 5rem;
+}
+body header .navbar-menu .navbar-item {
+  position: relative;
+}
+body header .navbar-menu .navbar-item::after {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  content: ".";
+  color: transparent;
+  background: #555;
+  height: 1px;
+  transition: all 0.5s;
+}
+body header .navbar-menu .navbar-item:hover {
+  color: #555;
+}
+body header .navbar-menu .navbar-item:hover:after {
+  width: 100%;
+}
+body header .navbar-menu .navbar-dropdown .navbar-item {
+  padding: 20px;
+}
+body section {
+  background: url("../../img/background-2850204_1920.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+body section .is-flex {
+  justify-content: center;
+  align-items: center;
+}
+body section p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -6,7 +6,6 @@ body {
             background-size: cover;
         }
         .hero-body {
-            height: 195vh;
             .myTitle {
                 background: rgba(0, 0, 0, 0.5);
                 margin-left: -10%;
@@ -19,8 +18,53 @@ body {
             transition: .5s;
             background-color: white !important;
         }
-        .navbar-item img {
-            max-height: $navbar-item-img-max-height;
+        .navbar-item {
+            img {
+                max-height: $navbar-item-img-max-height;
+            }
+        }
+        .navbar-menu {
+            .navbar-item {
+                position: relative;
+                &::after {
+                    position: absolute;
+                    bottom: 15px;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    width: 0;
+                    content: '.';
+                    color: transparent;
+                    background: #555;
+                    height: 1px;
+                    transition: all .5s;
+                }
+                &:hover {
+                    color: #555;
+                    &:after {
+                        width: 100%;
+                    }
+                }
+            }
+            .navbar-dropdown {
+                .navbar-item {
+                    padding: 20px;
+                }
+            }
+        }
+    }
+    section {
+        background: url('../../img/background-2850204_1920.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100vh;
+        .is-flex {
+            justify-content: center;
+            align-items: center;
+        }
+        p {
+            padding-left: 5%;
+            padding-right: 5%;
         }
     }
 }

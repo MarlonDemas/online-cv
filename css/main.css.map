@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAEQ,iBAAM;EACF,gBAAgB,EAAE,iDAAiD;EACnE,qBAAqB,EAAE,KAAK;EAC5B,eAAe,EAAE,KAAK;AAE1B,sBAAW;EACP,MAAM,EAAE,KAAK;EACb,+BAAS;IACL,UAAU,EAAE,kBAAkB;IAC9B,WAAW,EAAE,IAAI;IACjB,YAAY,EAAE,IAAI;IAClB,OAAO,EAAE,OAAO;AAIxB,wBAAa;EACT,UAAU,EAAE,GAAG;EACf,gBAAgB,EAAE,gBAAgB;AAEtC,4BAAiB;EACb,UAAU,ECrBO,IAAI",
-"sources": ["../sass/partials/_base.scss","../sass/partials/_variables.scss"],
-"names": [],
-"file": "main.css"
-}
+{"version":3,"sourceRoot":"","sources":["../sass/partials/_base.scss","../sass/partials/_variables.scss"],"names":[],"mappings":"AAEQ;EACI;EACA;EACA;;AAGA;EACI;EACA;EACA;EACA;;AAIR;EACI;EACA;;AAGA;EACI,YCrBa;;ADyBjB;EACI;;AACA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEJ;EACI;;AACA;EACI;;AAKR;EACI;;AAKhB;EACI;EACA;EACA;EACA;;AACA;EACI;EACA;;AAEJ;EACI;EACA","file":"main.css"}
