@@ -42,7 +42,7 @@ body header .navbar-menu .navbar-dropdown .navbar-item {
   padding: 20px;
 }
 body section {
-  background: url("../../img/background-2850204_1920.jpg");
+  background: url("../img/background-2850204_1920.jpg");
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
