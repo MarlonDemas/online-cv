@@ -74,6 +74,13 @@ body {
             overflow: hidden;
             position: relative;
             width: 100%;
+            .icon.is-large {
+                height: 6rem;
+                width: 6rem;
+            }
+            .fa-3x {
+                font-size: 5rem;
+            }
             &::before,
             &::after {
                 @include white-gradient;
@@ -95,11 +102,11 @@ body {
             .slide-track {
                 animation: scroll $animationSpeed linear infinite;
                 display: flex;
-                width: calc(250px * 14);
+                width: calc(200px * 14);
             }
             .slide {
                 height: 100px;
-                width: 250px;
+                width: 200px;
             }
         }
         @keyframes scroll {
@@ -107,7 +114,7 @@ body {
                 transform: translateX(0);
             }
             100% {
-                transform: translateX(calc(-250px * 7))
+                transform: translateX(calc(-200px * 7))
             }
         }
     }

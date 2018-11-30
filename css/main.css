@@ -64,6 +64,13 @@ body section .slider {
   position: relative;
   width: 100%;
 }
+body section .slider .icon.is-large {
+  height: 6rem;
+  width: 6rem;
+}
+body section .slider .fa-3x {
+  font-size: 5rem;
+}
 body section .slider::before, body section .slider::after {
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
@@ -84,18 +91,18 @@ body section .slider::before {
 body section .slider .slide-track {
   animation: scroll 40s linear infinite;
   display: flex;
-  width: calc(250px * 14);
+  width: calc(200px * 14);
 }
 body section .slider .slide {
   height: 100px;
-  width: 250px;
+  width: 200px;
 }
 @keyframes scroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-200px * 7));
   }
 }
 
