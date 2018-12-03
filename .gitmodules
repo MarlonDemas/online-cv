@@ -1,0 +1,3 @@
+[submodule "bulma-calendar"]
+	path = bulma-calendar
+	url = git://github.com/Wikiki/bulma-calendar.git
