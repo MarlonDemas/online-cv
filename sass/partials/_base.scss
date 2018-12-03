@@ -69,7 +69,7 @@ body {
         .slider {
             background: white;
             box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-            height: 100px;
+            height: 200px;
             margin: auto;
             overflow: hidden;
             position: relative;
@@ -100,9 +100,12 @@ body {
                 top: 0;
             }
             .slide-track {
-                animation: scroll $animationSpeed linear infinite;
+                animation: scroll $animationSpeed linear both infinite;
                 display: flex;
                 width: calc(200px * 14);
+                &:hover {
+                    animation-play-state: paused;
+                }
             }
             .slide {
                 height: 100px;

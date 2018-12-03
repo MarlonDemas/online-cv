@@ -58,7 +58,7 @@ body section p {
 body section .slider {
   background: white;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  height: 100px;
+  height: 200px;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -89,9 +89,12 @@ body section .slider::before {
   top: 0;
 }
 body section .slider .slide-track {
-  animation: scroll 40s linear infinite;
+  animation: scroll 40s linear both infinite;
   display: flex;
   width: calc(200px * 14);
+}
+body section .slider .slide-track:hover {
+  animation-play-state: paused;
 }
 body section .slider .slide {
   height: 100px;
