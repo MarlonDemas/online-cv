@@ -45,7 +45,6 @@ body section {
   background: url("../img/background-2850204_1920.jpg");
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
 }
 body section .is-flex {
   justify-content: center;
@@ -63,6 +62,7 @@ body section .slider {
   overflow: hidden;
   position: relative;
   width: 100%;
+  margin-bottom: 30vh;
 }
 body section .slider .icon.is-large {
   height: 6rem;
