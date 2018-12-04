@@ -25,6 +25,7 @@ body {
         }
         .navbar-menu {
             .navbar-item {
+                padding: 20px;
                 position: relative;
                 &::after {
                     position: absolute;

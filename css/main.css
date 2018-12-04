@@ -17,6 +17,7 @@ body header .navbar-item img {
   max-height: 5rem;
 }
 body header .navbar-menu .navbar-item {
+  padding: 20px;
   position: relative;
 }
 body header .navbar-menu .navbar-item::after {
