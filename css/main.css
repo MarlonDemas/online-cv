@@ -40,7 +40,7 @@ body header .navbar-menu .navbar-item:hover:after {
   width: 100%;
 }
 body header .navbar-menu .navbar-dropdown {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.9);
 }
 body header .navbar-menu .navbar-dropdown .navbar-item {
   padding: 29px;
