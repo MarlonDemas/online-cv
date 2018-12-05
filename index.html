@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <nav id="myNav" class="navbar is-fixed-top is-transparent is-dark is-clearfix" role="navigation" aria-label="main navigation">
+            <nav id="myNav" class="navbar is-fixed-top is-transparent is-invisible is-clearfix" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
                     <a class="navbar-item" href="#home">
                         <img src="img/makes.png" alt="" width="70px">
@@ -39,42 +39,42 @@
 
                 <div id="navbar-menu" class="navbar-menu">
                     <div class="navbar-end">
-                        <a href="#about" class="navbar-item">
-                            About
-                        </a>
-
-                        <a href="#skills" class="navbar-item">
-                            Skills
-                        </a>
-
-                        <a class="navbar-item">
-                            Contact
-                        </a>
-
-                        <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link">
-                                            More
-                                        </a>
+                        <div class="navbar-item has-dropdown is-hoverable ">
+                            <a class="navbar-link is-arrowless">
+                                About
+                            </a>
 
                             <div class="navbar-dropdown">
+                                <a href="#about" class="navbar-item">
+                                    About me
+                                </a>
+                                <a href="#skills" class="navbar-item">
+                                    Skills
+                                </a>
                                 <a href="#education" class="navbar-item">
                                     Education
                                 </a>
                                 <a href="#experience" class="navbar-item">
                                     Experience
                                 </a>
-                                <a class="navbar-item">
-                                    Interests
-                                </a>
                             </div>
                         </div>
+
+                        <a class="navbar-item">
+                            Projects
+                        </a>
+
+                        <a class="navbar-item">
+                            Contact
+                        </a>
+
                     </div>
                 </div>
             </nav>
         </section>
     </header>
 
-    <section style="height:100vh">
+    <section class="section" style="height:100vh">
         <div class="box">
             <div class="container has-text-centered">
                 <h1 id="about" class="title is-2">About me</h1>
@@ -94,7 +94,7 @@
             </div>
         </div>
     </section>
-    <section style="height:360vh">
+    <section class="section" style="height:360vh">
         <div class="box" style="margin-bottom: 240px">
             <h2 id="education" class="title is-2 has-text-centered">Education</h2>
             <hr>
@@ -156,55 +156,71 @@
                 </header>
             </div>
         </div>
-        <div class="box">
-            <div class="container">
-                <h1 id="experience" class="title is-2 has-text-centered">Experience</h1>
-                <hr>
-                <div class="columns">
-                    <div class="column is-one-third is-flex">
-                        <img src="img/icon.png" width="auto">
+        <div class="columns">
+            <div class="column is-four-fifths">
+                <div class="box">
+                    <h1 id="experience" class="title is-2 has-text-centered">Experience</h1>
+                    <hr>
+                    <div class="columns">
+                        <div class="column is-one-quarter is-flex">
+                            <img src="img/icon.png" width="auto">
+                        </div>
+                        <div class="column">
+                            <p class="title is-4">Mr. Delivery - <span class="has-text-link">Driver</span></p>
+                            <p class="title is-6">
+                                As a driver I was tasked with collecting food and delivering it to the customer's doorstep in the minimum amount of time without damaging the contents or breaking traffic rules.
+                            </p>
+                            <p class="title is-6"><span class="has-text-weight-bold">Duration:</span> July 2018 - October 2018</p>
+                            <p class="title is-6"><span class="has-text-weight-bold">Reference:</span> Megan Vos - 079 463 6834</p>
+                        </div>
                     </div>
-                    <div class="column">
-                        <p class="title is-4">Mr. Delivery - <span class="has-text-link">Driver</span></p>
-                        <p class="title is-6">
-                            As a driver I was tasked with collecting food and delivering it to the customer's doorstep in the minimum amount of time without damaging the contents or breaking traffic rules.
-                        </p>
-                        <p class="title is-6"><span class="has-text-weight-bold">Duration:</span> July 2018 - October 2018</p>
-                        <p class="title is-6"><span class="has-text-weight-bold">Reference:</span> Megan Vos - 079 463 6834</p>
+                    <hr>
+                    <div class="columns">
+                        <div class="column is-one-quarter is-flex">
+                            <img src="img/img-logo-panarottis.png" width="auto">
+                        </div>
+                        <div class="column">
+                            <p class="title is-4">Panarottis - <span class="has-text-link">Waiter</span></p>
+                            <p class="title is-6">
+                                As a waiter I had to provide professional, friendly and engaging service delivery. Also had to complete daily tasks and worked as a team with fellow peers.
+                            </p>
+                            <p class="title is-6"><span class="has-text-weight-bold">Duration:</span> January 2017 - June 2018</p>
+                            <p class="title is-6"><span class="has-text-weight-bold">Reference:</span> Donovan Swartz - 083 410 3112</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="columns">
+                        <div class="column is-one-quarter is-flex">
+                            <img src="img/South_Africa_Department_of_Basic_Education_logo.png" width="auto">
+                        </div>
+                        <div class="column">
+                            <p class="title is-4">Department of Education - <span class="has-text-link">Examination Assistant</span></p>
+                            <p class="title is-6">
+                                As a Examination Assistant I was tasked with assisting markers by performing quality assurance checks on learners’ scripts.
+                            </p>
+                            <p class="title is-6"><span class="has-text-weight-bold">Duration:</span> December 2016</p>
+                            <p class="title is-6"><span class="has-text-weight-bold">Reference:</span> WCED - 021 467 2000</p>
+                        </div>
                     </div>
                 </div>
-                <hr>
-                <div class="columns">
-                    <div class="column is-one-third is-flex">
-                        <img src="img/img-logo-panarottis.png" width="auto">
-                    </div>
-                    <div class="column">
-                        <p class="title is-4">Panarottis - <span class="has-text-link">Waiter</span></p>
-                        <p class="title is-6">
-                            As a waiter I had to provide professional, friendly and engaging service delivery. Also had to complete daily tasks and worked as a team with fellow peers.
-                        </p>
-                        <p class="title is-6"><span class="has-text-weight-bold">Duration:</span> January 2017 - June 2018</p>
-                        <p class="title is-6"><span class="has-text-weight-bold">Reference:</span> Donovan Swartz - 083 410 3112</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="columns">
-                    <div class="column is-one-third is-flex">
-                        <img src="img/South_Africa_Department_of_Basic_Education_logo.png" width="auto">
-                    </div>
-                    <div class="column">
-                        <p class="title is-4">Department of Education - <span class="has-text-link">Examination Assistant</span></p>
-                        <p class="title is-6">
-                            As a Examination Assistant I was tasked with assisting markers by performing quality assurance checks on learners’ scripts.
-                        </p>
-                        <p class="title is-6"><span class="has-text-weight-bold">Duration:</span> December 2016</p>
-                        <p class="title is-6"><span class="has-text-weight-bold">Reference:</span> WCED - 021 467 2000</p>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <h2 class="title is-2 has-text-centered">Interests</h2>
+                    <hr>
+                    <div class="columns">
+                        <div class="column">
+                            <span class="icon is-large tooltip" data-tooltip="Soccer" style="color:black"><i class="fas fa-3x fa-futbol"></i></span>
+                            <span class="icon is-large tooltip" data-tooltip="Music" style="color:black"><i class="fas fa-3x fa-music"></i></span>
+                            <span class="icon is-large tooltip" data-tooltip="Video Games" style="color:black"><i class="fas fa-3x fa-gamepad"></i></span>
+                            <span class="icon is-large tooltip" data-tooltip="Cars" style="color:black"><i class="fas fa-3x fa-car"></i></span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section style="height:100vh">
+    <!-- <section style="height:100vh">
         <div class="slider">
             <h2 id="skills" class="title is-2 has-text-centered">Skills</h2>
             <hr>
@@ -253,45 +269,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <script>
-        window.addEventListener('scroll', function(e) {
-            var nav = document.getElementById('myNav');
-            if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
-                nav.classList.add('nav-colored');
-                nav.classList.remove('is-dark');
-            } else {
-                nav.classList.add('is-dark');
-                nav.classList.remove('nav-colored');
-            }
-        });
-
-        document.addEventListener('DOMContentLoaded', () => {
-
-            // Get all "navbar-burger" elements
-            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-            // Check if there are any navbar burgers
-            if ($navbarBurgers.length > 0) {
-
-                // Add a click event on each of them
-                $navbarBurgers.forEach(el => {
-                    el.addEventListener('click', () => {
-
-                        // Get the target from the "data-target" attribute
-                        const target = el.dataset.target;
-                        const $target = document.getElementById(target);
-
-                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-                        el.classList.toggle('is-active');
-                        $target.classList.toggle('is-active');
-
-                    });
-                });
-            }
-
-        });
-    </script>
+    </section> -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
