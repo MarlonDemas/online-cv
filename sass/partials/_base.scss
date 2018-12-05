@@ -69,11 +69,18 @@ body {
         }
         .icon.is-large {
             height: 10rem;
-            width: 10rem;
+            width: 11rem;
             margin-bottom: 4px;
         }
         .fa-3x {
             font-size: 9rem;
+        }
+        .icon.is-medium {
+            height: 6rem;
+            width: 10rem;
+        }
+        .fa-2x {
+            font-size: 6rem;
         }
         // .slider {
         //     background: white;

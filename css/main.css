@@ -60,11 +60,18 @@ body section p {
 }
 body section .icon.is-large {
   height: 10rem;
-  width: 10rem;
+  width: 11rem;
   margin-bottom: 4px;
 }
 body section .fa-3x {
   font-size: 9rem;
+}
+body section .icon.is-medium {
+  height: 6rem;
+  width: 10rem;
+}
+body section .fa-2x {
+  font-size: 6rem;
 }
 
 /*# sourceMappingURL=main.css.map */
