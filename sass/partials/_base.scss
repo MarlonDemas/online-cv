@@ -16,7 +16,8 @@ body {
         }
         .nav-colored {
             transition: .5s;
-            background-color: rgba(255, 255, 255, 0.8) !important;
+            background-color: #fff !important;
+            ;
         }
         .navbar-item {
             img {
@@ -25,8 +26,8 @@ body {
         }
         .navbar-menu {
             .navbar-item {
-                padding: 29px;
                 position: relative;
+                font-size: 1.4rem;
                 &::after {
                     position: absolute;
                     bottom: 15px;
@@ -48,9 +49,9 @@ body {
                 }
             }
             .navbar-dropdown {
-                background: rgba(255, 255, 255, 0.9);
+                background: rgba(255, 255, 255, 1);
                 .navbar-item {
-                    padding: 29px;
+                    padding: 20px;
                 }
             }
         }
