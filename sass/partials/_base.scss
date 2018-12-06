@@ -1,142 +1,161 @@
-body {
-    header {
-        .hero {
-            background-image: url('../img/book-computer-design-326424-min.jpg');
-            background-attachment: fixed;
-            background-size: cover;
-        }
-        .hero-body {
-            .myTitle {
-                background: rgba(0, 0, 0, 0.5);
-                margin-left: -10%;
-                margin-right: -10%;
-                padding: 1.75rem;
-                // font-family: 'Fredoka One', cursive;
+html {
+    scroll-behavior: smooth;
+    body {
+        header {
+            .hero {
+                background-image: url('../img/book-computer-design-326424-min.jpg');
+                background-attachment: fixed;
+                background-size: cover;
             }
-        }
-        .nav-colored {
-            transition: .5s;
-            background-color: #fff !important;
-            ;
-        }
-        .navbar-item {
-            img {
-                max-height: $navbar-item-img-max-height;
-            }
-        }
-        .navbar-menu {
-            .navbar-item {
-                position: relative;
-                font-size: 1.4rem;
-                &::after {
-                    position: absolute;
-                    bottom: 15px;
-                    left: 0;
-                    right: 0;
-                    margin: auto;
-                    width: 0;
-                    content: '.';
-                    color: transparent;
-                    background: #555;
-                    height: 1px;
-                    transition: all .5s;
+            .hero-body {
+                .myTitle {
+                    background: rgba(0, 0, 0, 0.5);
+                    margin-left: -10%;
+                    margin-right: -10%;
+                    padding: 1.75rem;
+                    font-family: 'Fredoka One', cursive;
                 }
-                &:hover {
-                    color: #555;
-                    &:after {
-                        width: 100%;
+            }
+            .nav-colored {
+                transition: .5s;
+                background-color: #fff !important;
+            }
+            .navbar-item {
+                img {
+                    max-height: $navbar-item-img-max-height;
+                }
+            }
+            .navbar-menu {
+                .navbar-item {
+                    position: relative;
+                    font-size: 1.4rem;
+                    &::after {
+                        position: absolute;
+                        bottom: 15px;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        width: 0;
+                        content: '.';
+                        color: transparent;
+                        background: #555;
+                        height: 1px;
+                        transition: all .5s;
+                    }
+                    &:hover {
+                        color: #555;
+                        &:after {
+                            width: 100%;
+                        }
+                    }
+                }
+                .navbar-dropdown {
+                    background: rgba(255, 255, 255, 1);
+                    .navbar-item {
+                        padding: 20px;
                     }
                 }
             }
-            .navbar-dropdown {
-                background: rgba(255, 255, 255, 1);
-                .navbar-item {
-                    padding: 20px;
+        }
+        section {
+            background: url('../img/background-2850204_1920.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            .is-flex {
+                justify-content: center;
+                align-items: center;
+            }
+            p {
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+            .icon.is-large {
+                height: 10rem;
+                width: 11rem;
+                margin-bottom: 4px;
+            }
+            .fa-3x {
+                font-size: 5rem;
+            }
+            .icon.is-medium {
+                height: 6rem;
+                width: 10rem;
+            }
+            .fa-2x {
+                font-size: 4rem;
+            }
+            [class*=" imghvr-"],
+            [class^=imghvr-] {
+                width: 250px;
+                height: 250px;
+                display: block;
+                margin: auto;
+                figcaption {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a {
+                        display: block;
+                        width: 100px;
+                        margin: 60% auto;
+                    }
                 }
             }
+            // .slider {
+            //     background: white;
+            //     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+            //     height: 200px;
+            //     margin: auto;
+            //     overflow: hidden;
+            //     position: relative;
+            //     width: 100%;
+            //     margin-bottom: 30vh;
+            //     .icon.is-large {
+            //         height: 16rem;
+            //         width: 16rem;
+            //     }
+            //     .fa-3x {
+            //         font-size: 15rem;
+            //     }
+            //     &::before,
+            //     &::after {
+            //         @include white-gradient;
+            //         content: "";
+            //         height: 100px;
+            //         position: absolute;
+            //         width: 200px;
+            //         z-index: 2;
+            //     }
+            //     &::after {
+            //         right: 0;
+            //         top: 0;
+            //         transform: rotateZ(180deg);
+            //     }
+            //     &::before {
+            //         left: 0;
+            //         top: 0;
+            //     }
+            //     .slide-track {
+            //         animation: scroll $animationSpeed linear both infinite;
+            //         display: flex;
+            //         width: calc(200px * 14);
+            //         &:hover {
+            //             animation-play-state: paused;
+            //         }
+            //     }
+            //     .slide {
+            //         height: 100px;
+            //         width: 200px;
+            //     }
+            // }
+            // @keyframes scroll {
+            //     0% {
+            //         transform: translateX(0);
+            //     }
+            //     100% {
+            //         transform: translateX(calc(-200px * 7))
+            //     }
+            // }
         }
-    }
-    section {
-        background: url('../img/background-2850204_1920.jpg');
-        background-attachment: fixed;
-        background-size: cover;
-        .is-flex {
-            justify-content: center;
-            align-items: center;
-        }
-        p {
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-        .icon.is-large {
-            height: 10rem;
-            width: 11rem;
-            margin-bottom: 4px;
-        }
-        .fa-3x {
-            font-size: 9rem;
-        }
-        .icon.is-medium {
-            height: 6rem;
-            width: 10rem;
-        }
-        .fa-2x {
-            font-size: 6rem;
-        }
-        // .slider {
-        //     background: white;
-        //     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-        //     height: 200px;
-        //     margin: auto;
-        //     overflow: hidden;
-        //     position: relative;
-        //     width: 100%;
-        //     margin-bottom: 30vh;
-        //     .icon.is-large {
-        //         height: 16rem;
-        //         width: 16rem;
-        //     }
-        //     .fa-3x {
-        //         font-size: 15rem;
-        //     }
-        //     &::before,
-        //     &::after {
-        //         @include white-gradient;
-        //         content: "";
-        //         height: 100px;
-        //         position: absolute;
-        //         width: 200px;
-        //         z-index: 2;
-        //     }
-        //     &::after {
-        //         right: 0;
-        //         top: 0;
-        //         transform: rotateZ(180deg);
-        //     }
-        //     &::before {
-        //         left: 0;
-        //         top: 0;
-        //     }
-        //     .slide-track {
-        //         animation: scroll $animationSpeed linear both infinite;
-        //         display: flex;
-        //         width: calc(200px * 14);
-        //         &:hover {
-        //             animation-play-state: paused;
-        //         }
-        //     }
-        //     .slide {
-        //         height: 100px;
-        //         width: 200px;
-        //     }
-        // }
-        // @keyframes scroll {
-        //     0% {
-        //         transform: translateX(0);
-        //     }
-        //     100% {
-        //         transform: translateX(calc(-200px * 7))
-        //     }
-        // }
     }
 }
