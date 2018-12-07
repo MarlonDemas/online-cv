@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    offset: 150px;
     body {
         header {
             .hero {
@@ -15,6 +16,9 @@ html {
                     padding: 1.75rem;
                     font-family: 'Fredoka One', cursive;
                 }
+            }
+            .navbar {
+                box-shadow: 2px 2px 2px black;
             }
             .nav-colored {
                 transition: .5s;
@@ -79,7 +83,7 @@ html {
             }
             .icon.is-medium {
                 height: 6rem;
-                width: 10rem;
+                width: 9.8rem;
             }
             .fa-2x {
                 font-size: 4rem;

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fredoka+One|Playfair+Display+SC");
 html {
   scroll-behavior: smooth;
+  offset: 150px;
 }
 html body header .hero {
   background-image: url("../img/book-computer-design-326424-min.jpg");
@@ -13,6 +14,9 @@ html body header .hero-body .myTitle {
   margin-right: -10%;
   padding: 1.75rem;
   font-family: "Fredoka One", cursive;
+}
+html body header .navbar {
+  box-shadow: 2px 2px 2px black;
 }
 html body header .nav-colored {
   transition: 0.5s;
@@ -73,7 +77,7 @@ html body section .fa-3x {
 }
 html body section .icon.is-medium {
   height: 6rem;
-  width: 10rem;
+  width: 9.8rem;
 }
 html body section .fa-2x {
   font-size: 4rem;
