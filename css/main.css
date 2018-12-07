@@ -84,18 +84,20 @@ html body section [class^=imghvr-] {
   height: 250px;
   display: block;
   margin: auto;
+  box-shadow: 2px 2px 2px grey, -2px -2px 2px grey;
 }
 html body section [class*=" imghvr-"] figcaption,
 html body section [class^=imghvr-] figcaption {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 html body section [class*=" imghvr-"] figcaption a,
 html body section [class^=imghvr-] figcaption a {
   display: block;
   width: 100px;
-  margin: 60% auto;
+  margin: 65% auto;
 }
 
 /*# sourceMappingURL=main.css.map */

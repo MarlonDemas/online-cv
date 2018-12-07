@@ -90,14 +90,16 @@ html {
                 height: 250px;
                 display: block;
                 margin: auto;
+                box-shadow: 2px 2px 2px grey, -2px -2px 2px grey;
                 figcaption {
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    text-align: center;
                     a {
                         display: block;
                         width: 100px;
-                        margin: 60% auto;
+                        margin: 65% auto;
                     }
                 }
             }
