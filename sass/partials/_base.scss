@@ -164,13 +164,30 @@ html {
             // }
         }
         footer {
-            // .fa-github {
-            //     color: $grey-darker;
-            //     &:hover {
-            //         color: $white-ter;
-            //         background-color: $grey-darker;
-            //     }
-            // }
+            .icon {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .blue {
+                color: $white-ter;
+                background-color: hsl(217, 71%, 53%);
+                border-radius: 50%;
+            }
+            .dribbble {
+                color: $white-ter;
+                background-color: #ea4c89;
+                border-radius: 50%;
+            }  
+            .insta {
+                @include insta-gradient;
+                color:  $white-ter;
+                border-radius: 50%;
+            }
+            .github {
+                color: #211f1f;
+                background-color: $white-ter;
+                border-radius: 50%;
+            }
         }
     }
 }
