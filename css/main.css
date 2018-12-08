@@ -88,17 +88,31 @@ html {
     color: whitesmoke;
     background-color: #3273dc;
     border-radius: 50%; }
+    html body footer .blue:hover {
+      background-color: whitesmoke;
+      color: #3273dc; }
   html body footer .dribbble {
     color: whitesmoke;
     background-color: #ea4c89;
     border-radius: 50%; }
+    html body footer .dribbble:hover {
+      background-color: whitesmoke;
+      color: #ea4c89; }
   html body footer .insta {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     color: whitesmoke;
     border-radius: 50%; }
+    html body footer .insta:hover {
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+      color: transparent;
+      background-clip: text; }
   html body footer .github {
     color: #211f1f;
     background-color: whitesmoke;
     border-radius: 50%; }
+    html body footer .github:hover {
+      background-color: #211f1f;
+      color: whitesmoke;
+      border-radius: 20%; }
 
 /*# sourceMappingURL=main.css.map */
