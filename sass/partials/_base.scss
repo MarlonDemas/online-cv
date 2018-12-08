@@ -75,15 +75,15 @@ html {
             }
             .icon.is-large {
                 height: 10rem;
-                width: 11rem;
-                margin-bottom: 4px;
+                width: 100%;
+                padding-bottom: 1rem;
             }
             .fa-3x {
                 font-size: 5rem;
             }
             .icon.is-medium {
                 height: 6rem;
-                width: 8.8rem;
+                width: 12%;
             }
             .fa-2x {
                 font-size: 4rem;
@@ -160,6 +160,15 @@ html {
             //     }
             //     100% {
             //         transform: translateX(calc(-200px * 7))
+            //     }
+            // }
+        }
+        footer {
+            // .fa-github {
+            //     color: $grey-darker;
+            //     &:hover {
+            //         color: $white-ter;
+            //         background-color: $grey-darker;
             //     }
             // }
         }
