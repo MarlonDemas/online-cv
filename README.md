@@ -4,4 +4,4 @@
 Online Dev Portfolio of Marlon Demas
 
 ## Live Link
-https://marlondemas.github.io/myportfolio/index.html
+https://marlondemas.github.io/online-cv/index.html
