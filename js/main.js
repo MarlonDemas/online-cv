@@ -1,12 +1,41 @@
-window.addEventListener('scroll', function(e) {
-    var nav = document.getElementById('myNav');
-    if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
-        nav.classList.add('nav-colored');
-        nav.classList.remove('is-invisible');
-    } else {
-        nav.classList.add('is-invisible');
-        nav.classList.remove('nav-colored');
-    }
+//Navbar Hide On Scroll
+
+(function ($) {
+    $(document).ready(function () {
+
+        // hide .navbar first
+        $(".navbar").hide();
+
+        // fade in .navbar
+        $(function () {
+            $(window).scroll(function () {
+                // set distance user needs to scroll before we fadeIn navbar
+                if ($(this).scrollTop() > 100) {
+                    $('.navbar').fadeIn();
+                } else {
+                    $('.navbar').fadeOut();
+                }
+            });
+        });
+    });
+}(jQuery));
+
+/* Show navbar */
+
+$(function () {
+    $('#shownav').hover(function () {
+        $('.navbar').fadeIn();
+    });
+});
+
+/* when navbar is hovered over it will override previous */
+
+$(function () {
+    $('.navbar').hover(function () {
+        $('.navbar').show();
+    }, function () {
+        $('.navbar').fadeOut();
+    });
 });
 
 document.addEventListener('DOMContentLoaded', () => {

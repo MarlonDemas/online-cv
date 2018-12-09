@@ -120,3 +120,16 @@ html {
         border-radius: 20%; }
 
 /*# sourceMappingURL=main.css.map */
+
+#shownav {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+}
+.navbar {
+  opacity: 1;
+}
+.navbar.hideme {
+  opacity: 0;
+}
