@@ -1,225 +1,189 @@
 /* Instagram background color gradient */
-
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display");
 html {
-    /* Adding smooth scroll */
-    scroll-behavior: smooth;
+  /* Adding smooth scroll */
+  scroll-behavior: smooth;
 }
-
-
-/* Header section styles */
-
-
-/* Div to show nav on hover */
-
+html body {
+  /* All styles for different sections on webpage */
+  /* Styles for the footer section */
+}
+html body header {
+  /* Div to show nav on hover */
+  /* Header section styles */
+  /* Styling all content within the header */
+  /* Styles for nav and nav items */
+}
 html body header #shownav {
-    position: fixed;
-    top: 0;
-    height: 60px;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
 }
-
 html body header .navbar {
-    opacity: 1;
+  opacity: 1;
 }
-
 html body header .navbar.hideme {
-    opacity: 0;
+  opacity: 0;
 }
-
 html body header .hero {
-    background-image: url("../img/book-computer-design-326424-min.jpg");
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url("../img/book-computer-design-326424-min.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }
-
 html body header .hero-body .myTitle {
-    background: rgba(0, 0, 0, 0.5);
-    margin-left: -10%;
-    margin-right: -10%;
-    padding: 1.75rem;
-    font-family: "Playfair Display", sans-serif;
+  background: rgba(0, 0, 0, 0.5);
+  margin-left: -10%;
+  margin-right: -10%;
+  padding: 1.75rem;
+  font-family: "Playfair Display", sans-serif;
 }
-
-
-/* Styles for nav and nav items */
-
 html body header .navbar {
-    box-shadow: 2px 2px 2px black;
+  box-shadow: 2px 2px 2px black;
 }
-
 html body header .nav-colored {
-    transition: 0.5s;
-    background-color: #fff !important;
+  transition: 0.5s;
+  background-color: #fff !important;
 }
-
 html body header .navbar-item img {
-    max-height: 5rem;
+  max-height: 5rem;
 }
-
 html body header .navbar-menu .navbar-item {
-    position: relative;
-    font-size: 1.4rem;
+  position: relative;
+  font-size: 1.4rem;
 }
-
 html body header .navbar-menu .navbar-item::after {
-    position: absolute;
-    bottom: 15px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 0;
-    content: ".";
-    color: transparent;
-    background: #555;
-    height: 1px;
-    transition: all 0.5s;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  content: ".";
+  color: transparent;
+  background: #555;
+  height: 1px;
+  transition: all 0.5s;
 }
-
 html body header .navbar-menu .navbar-item:hover {
-    color: #555;
+  color: #555;
 }
-
 html body header .navbar-menu .navbar-item:hover:after {
-    width: 100%;
+  width: 100%;
 }
-
 html body header .navbar-menu .navbar-dropdown {
-    background: white;
+  background: white;
 }
-
 html body header .navbar-menu .navbar-dropdown .navbar-item {
-    padding: 20px;
+  padding: 20px;
 }
-
-
-/* All styles for different sections on webpage */
-
 html body section {
-    background: url("../img/background-2850204_1920.jpg");
-    background-attachment: fixed;
-    background-size: cover;
+  background: url("../img/background-2850204_1920.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }
-
 html body section .is-flex {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 html body section p {
-    padding-left: 5%;
-    padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
-
 html body section .icon.is-large {
-    height: 10rem;
-    width: 100%;
-    padding-bottom: 1rem;
+  height: 10rem;
+  width: 100%;
+  padding-bottom: 1rem;
 }
-
 html body section .fa-3x {
-    font-size: 5rem;
+  font-size: 5rem;
 }
-
 html body section .icon.is-medium {
-    height: 6rem;
-    width: 12%;
+  height: 6rem;
+  width: 12%;
 }
-
 html body section .fa-2x {
-    font-size: 4rem;
+  font-size: 4rem;
 }
-
 html body section [class*=" imghvr-"],
 html body section [class^=imghvr-] {
-    width: 250px;
-    height: 250px;
-    display: block;
-    margin: auto;
-    box-shadow: 2px 2px 2px grey, -2px -2px 2px grey;
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: auto;
+  box-shadow: 2px 2px 2px grey, -2px -2px 2px grey;
 }
-
 html body section [class*=" imghvr-"] figcaption,
 html body section [class^=imghvr-] figcaption {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
 html body section [class*=" imghvr-"] figcaption a,
 html body section [class^=imghvr-] figcaption a {
-    display: block;
-    width: 100px;
-    margin: 65% auto;
+  display: block;
+  width: 100px;
+  margin: 65% auto;
 }
-
-
-/* Styles for the footer section */
-
 html body footer {
-    padding-bottom: 1rem !important;
+  padding-bottom: 1rem !important;
+  /* Background and hover colors for social media account icons */
 }
-
 html body footer h3 {
-    margin-top: 1rem !important;
+  margin-top: 1rem !important;
 }
-
 html body footer .icon {
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-
-
-/* Background and hover colors for social media account icons */
-
 html body footer .blue {
-    color: whitesmoke;
-    background-color: #3273dc;
-    border-radius: 50%;
+  color: whitesmoke;
+  background-color: #3273dc;
+  border-radius: 50%;
 }
-
 html body footer .blue:hover {
-    background-color: whitesmoke;
-    color: #3273dc;
+  background-color: whitesmoke;
+  color: #3273dc;
 }
-
 html body footer .dribbble {
-    color: whitesmoke;
-    background-color: #ea4c89;
-    border-radius: 50%;
+  color: whitesmoke;
+  background-color: #ea4c89;
+  border-radius: 50%;
 }
-
 html body footer .dribbble:hover {
-    background-color: whitesmoke;
-    color: #ea4c89;
+  background-color: whitesmoke;
+  color: #ea4c89;
 }
-
 html body footer .insta {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    color: whitesmoke;
-    border-radius: 50%;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  color: whitesmoke;
+  border-radius: 50%;
 }
-
 html body footer .insta:hover {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
 }
-
 html body footer .github {
-    color: #211f1f;
-    background-color: whitesmoke;
-    border-radius: 50%;
+  color: #211f1f;
+  background-color: whitesmoke;
+  border-radius: 50%;
 }
-
 html body footer .github:hover {
-    background-color: #211f1f;
-    color: whitesmoke;
-    border-radius: 20%;
+  background-color: #211f1f;
+  color: whitesmoke;
+  border-radius: 20%;
 }
 
+@media screen and (max-width: 768px) {
+  .image {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
