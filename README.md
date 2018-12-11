@@ -1,13 +1,5 @@
 # Portfolio
 
-## Description
-Online Dev Portfolio of Marlon Demas
-
-## Live Link
-https://marlondemas.github.io/online-cv/index.html
-
-# Portfolio
-
 ## Introduction
 
 Online Dev Portfolio for Marlon Demas using mainly HTML, CSS and JavaScript. I also used the Bulma framework and SASS as a preprocessor for CSS.
@@ -32,19 +24,17 @@ https://github.com/MarlonDemas/online-cv.git
 
 ## Getting Started
 
-1. In the repository copy the link at the Clone or download button.
+Clone the above repository:
 
-2. Open git bash and type "git clone" then paste the copied link and press enter.
+```
+git clone https://github.com/MarlonDemas/online-cv.git
 
-3. Cd into the folder then copy the path.
-
-4. Create a virtual host using wamp, lamp or mamp with the name of your choosing and paste the path to create your virtual host.
-
-5. Refresh wamp and then open the virtual host and then you can do the quiz and see how much you know.
+```
+Launch the site from the index.html file.
 
 ### Live Link
 I have also included a hosted live link below:
-http://demasmarlon.000webhostapp.com/
+https://marlondemas.github.io/online-cv/index.html
 
 
 ## Built With
@@ -53,10 +43,10 @@ http://demasmarlon.000webhostapp.com/
 
 |**Technologies**|**Languages**|**Tools**|
 |:-----------:|:------------:|:------------:|
-| PHP Arrays | PHP | VScode
-| PHP Foreach loops | HTML | Firefox - Developer Edition
-| PHP Sessions |CSS (SASS) | Terminal
-| SASS        | | Github
+| Git | HTML | VScode
+| SASS | JavaScript | Firefox - Developer Edition
+| Bulma |CSS (SASS) | Terminal
+| JQuery | | Github
 
 ## Authors
 
@@ -67,3 +57,4 @@ http://demasmarlon.000webhostapp.com/
 * Hat tip to anyone whose code was used
 * Inspiration
 * Stack Overflow
+* Bulma
