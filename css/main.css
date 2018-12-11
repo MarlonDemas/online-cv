@@ -1,7 +1,18 @@
+/* Instagram background color gradient */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display");
 html {
+  /* Adding smooth scroll */
   scroll-behavior: smooth;
-  offset: 150px;
+}
+html body {
+  /* All styles for different sections on webpage */
+  /* Styles for the footer section */
+}
+html body header {
+  /* Div to show nav on hover */
+  /* Header section styles */
+  /* Styling all content within the header */
+  /* Styles for nav and nav items */
 }
 html body header #shownav {
   position: fixed;
@@ -117,6 +128,7 @@ html body section [class^=imghvr-] figcaption a {
 }
 html body footer {
   padding-bottom: 1rem !important;
+  /* Background and hover colors for social media account icons */
 }
 html body footer h3 {
   margin-top: 1rem !important;

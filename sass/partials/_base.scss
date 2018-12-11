@@ -1,8 +1,9 @@
 html {
+    /* Adding smooth scroll */
     scroll-behavior: smooth;
-    offset: 150px;
     body {
         header {
+            /* Div to show nav on hover */
             #shownav {
                 position: fixed;
                 top: 0;
@@ -15,11 +16,13 @@ html {
             .navbar.hideme {
                 opacity: 0;
             }
+            /* Header section styles */
             .hero {
                 background-image: url('../img/book-computer-design-326424-min.jpg');
                 background-attachment: fixed;
                 background-size: cover;
             }
+            /* Styling all content within the header */
             .hero-body {
                 .myTitle {
                     background: rgba(0, 0, 0, 0.5);
@@ -29,6 +32,7 @@ html {
                     font-family: 'Playfair Display', sans-serif;
                 }
             }
+            /* Styles for nav and nav items */
             .navbar {
                 box-shadow: 2px 2px 2px black;
             }
@@ -73,6 +77,7 @@ html {
                 }
             }
         }
+        /* All styles for different sections on webpage */
         section {
             background: url('../img/background-2850204_1920.jpg');
             background-attachment: fixed;
@@ -120,6 +125,7 @@ html {
                 }
             }
         }
+        /* Styles for the footer section */
         footer {
             h3 {
                 margin-top: 1rem !important;
@@ -129,6 +135,7 @@ html {
                 margin-left: 10px;
                 margin-right: 10px;
             }
+            /* Background and hover colors for social media account icons */
             .blue {
                 color: $white-ter;
                 background-color: hsl(217, 71%, 53%);
