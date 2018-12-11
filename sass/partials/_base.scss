@@ -3,6 +3,18 @@ html {
     offset: 150px;
     body {
         header {
+            #shownav {
+                position: fixed;
+                top: 0;
+                height: 60px;
+                width: 100%;
+            }
+            .navbar {
+                opacity: 1;
+            }
+            .navbar.hideme {
+                opacity: 0;
+            }
             .hero {
                 background-image: url('../img/book-computer-design-326424-min.jpg');
                 background-attachment: fixed;

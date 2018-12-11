@@ -3,6 +3,18 @@ html {
   scroll-behavior: smooth;
   offset: 150px;
 }
+html body header #shownav {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+}
+html body header .navbar {
+  opacity: 1;
+}
+html body header .navbar.hideme {
+  opacity: 0;
+}
 html body header .hero {
   background-image: url("../img/book-computer-design-326424-min.jpg");
   background-attachment: fixed;
