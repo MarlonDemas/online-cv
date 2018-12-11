@@ -4,4 +4,10 @@
         display: block;
         margin: auto;
     }
+    .timeline {
+        display: flex !important;
+    }
+    .timeline.is-centered {
+        display: none !important;
+    }
 }
