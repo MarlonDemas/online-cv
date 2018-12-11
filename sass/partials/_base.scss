@@ -134,15 +134,17 @@ html {
                     background-color: $white-ter;
                     color: #ea4c89;
                 }
-            }  
+            }
             .insta {
                 @include insta-gradient;
-                color:  $white-ter;
+                color: $white-ter;
                 border-radius: 50%;
                 &:hover {
                     @include insta-gradient;
                     color: transparent;
                     background-clip: text;
+                    -webkit-background-clip: text;
+                    -moz-background-clip: text;
                 }
             }
             .github {
