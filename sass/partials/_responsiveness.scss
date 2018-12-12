@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 553px) {
     .image {
         width: 50%;
         display: block;
@@ -13,5 +13,19 @@
     .icon.is-medium {
         width: 20% !important;
         margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 553px) and (min-width: 495px) {
+    .icon.is-medium {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .icon.is-medium {
+        width: 40% !important;
+        margin-left: 20px;
+        ;
     }
 }
