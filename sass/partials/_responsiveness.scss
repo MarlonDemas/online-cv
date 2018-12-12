@@ -17,12 +17,34 @@
 }
 
 @media screen and (max-width: 553px) and (min-width: 495px) {
+    .image {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    .timeline {
+        display: flex !important;
+    }
+    .timeline.is-centered {
+        display: none !important;
+    }
     .icon.is-medium {
         margin-left: 40px;
     }
 }
 
 @media screen and (max-width: 495px) {
+    .image {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    .timeline {
+        display: flex !important;
+    }
+    .timeline.is-centered {
+        display: none !important;
+    }
     .icon.is-medium {
         width: 40% !important;
         margin-left: 20px;
