@@ -132,13 +132,13 @@ html body footer .icon {
   margin-right: 10px;
 }
 html body footer .blue {
+  background-color: whitesmoke;
+  color: #3273dc;
+}
+html body footer .blue:hover {
   color: whitesmoke;
   background-color: #3273dc;
   border-radius: 50%;
-}
-html body footer .blue:hover {
-  background-color: whitesmoke;
-  color: #3273dc;
 }
 html body footer .dribbble {
   color: whitesmoke;
