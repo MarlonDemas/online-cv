@@ -172,6 +172,22 @@ html body footer .github:hover {
   border-radius: 20%;
 }
 
+.portfolio {
+  padding: 0 4rem;
+}
+
+.portfolio-image > figure > img {
+  border-radius: 8px;
+}
+
+.portfolio-content {
+  padding: 1.5rem 0;
+}
+
+.portfolio-content > p {
+  padding: 0
+}
+
 @media screen and (max-width: 768px) and (min-width: 553px) {
   .image {
     width: 50%;
